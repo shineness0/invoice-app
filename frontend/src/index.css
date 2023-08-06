@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .success {
+    @apply flex items-center space-x-2  bg-lightGreen  px-3 py-2 rounded-md;
+  }
+}
+
+.pending {
+  @apply flex items-center space-x-2  bg-lightOrange  px-3 py-2 rounded-md;
+}
+
+.draft {
+  @apply flex items-center space-x-2  bg-lightDark  px-3 py-2 rounded-md;
+}
