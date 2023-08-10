@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import arrowDown from '../assets/icon-arrow-down.svg'
 import plusIcon from '../assets/icon-plus.svg'
 
@@ -18,12 +19,15 @@ const Top = () => {
           </span>
         </div>
         {/* Button */}
-        <button className='bg-purple flex items-center space-x-2 px-3 py-2 rounded-full'>
+        <Link
+          to='/invoice/edit'
+          className='bg-purple flex items-center space-x-2 px-3 py-2 rounded-full'
+        >
           <span>
             <img src={plusIcon} alt='' />
           </span>
           <h1 className='text-white font-bold text-lg'>New</h1>
-        </button>
+        </Link>
       </div>
       {/* md */}
       <div className='md:flex items-center space-x-4 hidden'>
@@ -34,12 +38,15 @@ const Top = () => {
           </span>
         </div>
         {/* Button */}
-        <button className='bg-purple flex items-center space-x-2 px-3 py-2 rounded-full'>
+        <Link
+          to='/invoice/edit'
+          className='bg-purple flex items-center space-x-2 px-3 py-2 rounded-full'
+        >
           <span>
             <img src={plusIcon} alt='' />
           </span>
           <h1 className='text-white font-bold text-lg'>New Invoice</h1>
-        </button>
+        </Link>
       </div>
     </div>
   )

@@ -21,6 +21,7 @@ export default {
         red: '#EC5757',
         gray: '#494E6E;',
         textGray: '#888EB0',
+        textGrayAlt: '#7E88C3',
         purple: '#7C5DFA',
         bodyBg: '#F8F8FB',
         darkBodyBg: '#141625',

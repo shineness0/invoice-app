@@ -4,7 +4,7 @@ const Invoice = () => {
   return (
     <>
       <div className='flex flex-col space-y-5 md:hidden'>
-        <div className='bg-white dark:bg-darkAlt shadow-sm p-6 rounded-lg'>
+        <div className='item-container'>
           <div className='flex items-center justify-between'>
             <h1 className='font-bold dark:text-whiteAlt'>
               <span className='text-[#7E88C3]'>#</span>
@@ -28,7 +28,7 @@ const Invoice = () => {
           </div>
         </div>
         {/* pending */}
-        <div className='bg-white dark:bg-darkAlt shadow-sm p-6 rounded-lg'>
+        <div className='item-container'>
           <div className='flex items-center justify-between'>
             <h1 className='font-bold dark:text-whiteAlt'>
               <span className='text-[#7E88C3]'>#</span>
@@ -52,7 +52,7 @@ const Invoice = () => {
           </div>
         </div>
         {/* draft */}
-        <div className='bg-white dark:bg-darkAlt shadow-sm p-6 rounded-lg'>
+        <div className='item-container'>
           <div className='flex items-center justify-between'>
             <h1 className='font-bold dark:text-whiteAlt'>
               <span className='text-[#7E88C3]'>#</span>

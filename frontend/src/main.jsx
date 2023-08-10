@@ -10,12 +10,14 @@ import {
 } from 'react-router-dom'
 import DashBoard from './pages/DashBoard.jsx'
 import InvoiceDetails from './pages/InvoiceDetails.jsx'
+import InvoiceCreate from './pages/InvoiceCreate.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index={true} path='/' element={<DashBoard />} />
       <Route path='/invoice/:id' element={<InvoiceDetails />} />
+      <Route path='/invoice/edit' element={<InvoiceCreate />} />
     </Route>
   )
 )
