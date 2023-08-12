@@ -17,6 +17,7 @@ export default {
         dark: '#373B53',
         lightDark: 'rgba(55, 59, 83, 0.1)',
         darkAlt: '#1E2139',
+        dark2: '#252945',
         whiteAlt: '#DFE3FA',
         red: '#EC5757',
         gray: '#494E6E;',
